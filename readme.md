@@ -1,6 +1,8 @@
 
 # Basic JWT authentication app
-
+Why using Laravel + JWT:
+- Laravel has a great support, good architecture, and fast pace to develop a such API based application.
+- JWT is famous and strong security, it fits perfectly with Laravel to speed up the the development progress.
 ## Requirement
 Requires PHP 7.1 or higher
 
@@ -29,4 +31,3 @@ Can use a tool like Postman to test or by command line by using cUrl
     + name
     + tel
     + address
-
