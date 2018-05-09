@@ -6,7 +6,9 @@ Requires PHP 7.1 or higher
 
 - `composer install`
 - `cp .env.example .env` # if .env does not exist
-- The application would be tested immediately without configuring database, update with your expectation if you want to use any database other than sqlite.
+- Configure database:
+    + The application would be tested quickly with sqlite just make sure you have an empty file `database/database.sqltie`.
+    + Other database: create one and add update it to `.env`.
 - `php aritsan migrate`
 - `php artisan db:seed`
 - Then there are 5 dummy users:
